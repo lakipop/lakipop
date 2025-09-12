@@ -65,28 +65,66 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 
 ## 🎯 What I Focus On
 
+<div align="center">
+
+**My Development Stack & Interests**
+
+</div>
+
+<table align="center">
+<tr>
+<td>
+
+**👨‍💻 Languages**
 ```javascript
-const lakipop = {
-    pronouns: "He/Him",
-    code: ["JavaScript", "Java", "PHP", "HTML", "CSS"],
-    askMeAbout: ["web dev", "tech", "science", "art", "martial arts"],
-    technologies: {
-        frontEnd: {
-            js: ["Vue", "React"],
-            css: ["TailwindCSS", "Bootstrap"]
-        },
-        backEnd: {
-            php: ["Laravel"],
-            java: ["Spring Boot"]
-        },
-        databases: ["MySQL", "PostgreSQL"],
-        misc: ["REST APIs", "UI/UX Design"]
-    },
-    currentFocus: "Advanced Java & SpringBoot Development",
-    interests: ["Science & Research", "Art & Design", "Nature", "K-POP"],
-    funFact: "I combine martial arts discipline with coding precision! 🥋"
+const languages = [
+  "JavaScript", "Java", 
+  "PHP", "HTML", "CSS"
+];
+```
+
+</td>
+<td>
+
+**🚀 Technologies**
+```javascript
+const tech = {
+  frontend: ["Vue", "React", "TailwindCSS"],
+  backend: ["Laravel", "Spring Boot"],
+  databases: ["MySQL", "PostgreSQL"]
 };
 ```
+
+</td>
+</tr>
+<tr>
+<td>
+
+**🎯 Current Focus**
+```javascript
+const currentLearning = [
+  "Advanced Java",
+  "Spring Boot",
+  "Database Systems"
+];
+```
+
+</td>
+<td>
+
+**🌟 Interests**
+```javascript
+const interests = [
+  "Science & Research",
+  "Art & Design", 
+  "Martial Arts 🥋",
+  "K-POP 🎶"
+];
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
