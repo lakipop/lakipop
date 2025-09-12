@@ -138,7 +138,7 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00,ffff00&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=fadeIn&fontAlignY=75" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00,ffff00&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=000000&animation=twinkling&fontAlignY=75" width="100%" />
 </div>
 
 ---
