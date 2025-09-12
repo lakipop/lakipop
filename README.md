@@ -51,12 +51,12 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lakipop&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lakipop&layout=compact&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Top Languages" />
 </div>
 
 ---
@@ -64,65 +64,25 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ## 🎯 What I Focus On
 
 <div align="center">
-
-**My Development Stack & Interests**
-
+  <h3>My Development Stack & Interests</h3>
 </div>
 
-<table align="center">
-<tr>
-<td>
+<div align="center">
 
-**👨‍💻 Languages**
-```javascript
-const languages = [
-  "JavaScript", "Java", 
-  "PHP", "HTML", "CSS"
-];
-```
+| 👨‍💻 **Languages** | 🚀 **Technologies** |
+|:---:|:---:|
+| JavaScript, Java, PHP, HTML, CSS | Frontend: Vue, React, TailwindCSS |
+| Python, TypeScript | Backend: Laravel, Spring Boot |
+| SQL, NoSQL | Databases: MySQL, PostgreSQL |
 
-</td>
-<td>
+| 🎯 **Current Focus** | 🌟 **Interests** |
+|:---:|:---:|
+| Advanced Java & Spring Boot | Science & Research 🔬 |
+| Database Architecture | Art & Design 🎨 |
+| System Design | Martial Arts 🥋 |
+| Clean Code Principles | K-POP Music 🎶 |
 
-**🚀 Technologies**
-```javascript
-const tech = {
-  frontend: ["Vue", "React", "TailwindCSS"],
-  backend: ["Laravel", "Spring Boot"],
-  databases: ["MySQL", "PostgreSQL"]
-};
-```
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🎯 Current Focus**
-```javascript
-const currentLearning = [
-  "Advanced Java",
-  "Spring Boot",
-  "Database Systems"
-];
-```
-
-</td>
-<td>
-
-**🌟 Interests**
-```javascript
-const interests = [
-  "Science & Research",
-  "Art & Design", 
-  "Martial Arts 🥋",
-  "K-POP 🎶"
-];
-```
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -135,6 +95,14 @@ const interests = [
 | Exploring scientific concepts | UI/UX Design principles | Eco-friendly solutions | Modern web technologies |
 | Research methodologies | Creative problem solving | Sustainable development | Clean code architecture |
 
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </div>
 
 ---
