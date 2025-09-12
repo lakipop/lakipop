@@ -1,5 +1,3 @@
-# Hi there, I'm @lakipop 👋
-
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Passionate+Developer+%26+Creative+Thinker;Full+Stack+Web+Developer;UI%2FUX+Designer;Science+%26+Art+Enthusiast" alt="Typing SVG" />
 </div>
