@@ -99,10 +99,21 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 
 ---
 
-## 📈 Contribution Graph
+## 📈 GitHub Activity & Contributions
 
 <div align="center">
+  <!-- Traditional GitHub Contribution Calendar -->
+  <img src="https://ghchart.rshah.org/lakipop" alt="GitHub Contribution Chart" />
+</div>
+
+<div align="center">
+  <!-- Activity Graph with Line Chart -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+</div>
+
+<div align="center">
+  <!-- Commit Calendar Heatmap -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lakipop&theme=tokyonight" alt="Profile Summary" />
 </div>
 
 ---
