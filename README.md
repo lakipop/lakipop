@@ -104,7 +104,12 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ## 📈 GitHub Activity & Contributions
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=lakipop&theme=dark&hide_border=true" alt="GitHub Contribution Chart" />
+  
+![GitHub Contribution Snake](https://github.com/lakipop/lakipop/blob/output/github-contribution-grid-snake.svg)
+
+<!-- Fallback contribution calendar -->
+<img src="https://ghchart.rshah.org/lakipop" alt="GitHub Contribution Calendar" />
+
 </div>
 
 <div align="center">
