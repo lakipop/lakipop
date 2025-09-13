@@ -56,9 +56,9 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 </div>
 
 
-<div align="center">
+<!-- <div align="center">
   <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lakipop&layout=compact&theme=tokyonight&hide_border=true&count_private=true&langs_count=8" alt="Top Languages" />
-</div>
+</div> -->
 
 
 ---
