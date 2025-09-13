@@ -104,8 +104,7 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ## 📈 GitHub Activity & Contributions
 
 <div align="center">
-  <!-- Traditional GitHub Contribution Calendar -->
-  <img src="https://ghchart.rshah.org/lakipop" alt="GitHub Contribution Chart" />
+  <img src="https://streak-stats.demolab.com/?user=lakipop&theme=dark&hide_border=true" alt="GitHub Contribution Chart" />
 </div>
 <div align="center">
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=true&area=true&height=300" alt="Activity Graph" />
@@ -138,7 +137,7 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=32CD32,FFD700&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=ffffff&animation=twinkling&fontAlignY=75" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=twinkling&fontAlignY=75" width="100%" />
 </div>
 
 ---
