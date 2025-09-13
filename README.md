@@ -104,8 +104,7 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ## 📈 GitHub Activity & Contributions
 
 <div align="center">
-  <!-- Traditional GitHub Contribution Calendar -->
-  <img src="https://ghchart.rshah.org/lakipop" alt="GitHub Contribution Chart" />
+  <img src="https://streak-stats.demolab.com/?user=lakipop&theme=dark&hide_border=true" alt="GitHub Contribution Chart" />
 </div>
 
 <div align="center">
