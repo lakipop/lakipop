@@ -104,7 +104,8 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ## 📈 GitHub Activity & Contributions
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=lakipop&theme=dark&hide_border=true" alt="GitHub Contribution Chart" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
