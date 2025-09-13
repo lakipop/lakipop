@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Passionate+Developer+%26+Creative+Thinker;Full+Stack+Web+Developer;UI%2FUX+Designer;Science+%26+Art+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Passionate+Developer+%26+Creative+Thinker;Full+Stack+Web+Developer;UI%2FUX+Designer;Science+%26+Art+Enthusiast" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -138,7 +138,7 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00,ffff00&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=000000&animation=twinkling&fontAlignY=75" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=twinkling&fontAlignY=75" width="100%" />
 </div>
 
 ---
