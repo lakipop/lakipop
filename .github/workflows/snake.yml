@@ -2,15 +2,16 @@ name: Generate Snake Game
 
 on:
   schedule:
-    # Runs every day at midnight
     - cron: "0 0 * * *"
-  # Allows you to run the workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+
       - name: Generate Snake Game from Contributions
         uses: Platane/snk@v3
         with:
@@ -18,11 +19,7 @@ jobs:
           outputs: |
             ./assets/github-contribution-grid-snake.svg
             ./assets/github-contribution-grid-snake.gif
-      - name: Upload Snake Game SVG and GIF
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake-animations
-          path: assets/
+
       - name: Commit and Push Snake Game files
         run: |
           git config --local user.email "action@github.com"
