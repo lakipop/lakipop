@@ -19,7 +19,7 @@ jobs:
             ./assets/github-contribution-grid-snake.svg
             ./assets/github-contribution-grid-snake.gif
       - name: Upload Snake Game SVG and GIF
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: snake-animations
           path: assets/
