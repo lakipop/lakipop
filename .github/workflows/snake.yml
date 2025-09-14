@@ -23,6 +23,8 @@ jobs:
           outputs: |
             ./assets/github-contribution-grid-snake.svg
             ./assets/github-contribution-grid-snake.gif
+          color_snake: "#ff007f"
+          color_dots: "#ffeb3b,#b2ff59,#4caf50,#087f23,#087f23"
 
       - name: Commit and Push Snake Game files
         env:
