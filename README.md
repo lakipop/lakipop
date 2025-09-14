@@ -105,11 +105,7 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 
 <div align="center">
   
-![GitHub Contribution Snake](https://github.com/lakipop/lakipop/blob/output/github-contribution-grid-snake.svg)
-
-<!-- Fallback contribution calendar -->
-<img src="https://ghchart.rshah.org/lakipop" alt="GitHub Contribution Calendar" />
-
+![github-contribution-grid-snake](assets/github-contribution-grid-snake.svg)
 </div>
 
 <div align="center">
