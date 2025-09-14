@@ -12,13 +12,13 @@
 
 ## 🚀 About Me
 
-I'm a passionate developer and creative thinker with a strong interest in **science**, **art**, and modern **web technologies**.
+I'm a passionate developer and creative thinker with a strong interest in **cybersecurity**, **DevOps**, and modern **web technologies**.
 
-- 🔭 I'm currently working on **Full Stack Web Development**
-- 🌱 I'm currently learning **Advanced Java & SpringBoot**
-- 👯 I'm looking to collaborate on **Web development projects & Science-related platforms**
-- 💬 Ask me about **Laravel, Vue.js, React, UI/UX Design**
-- 📫 How to reach me: **lakindu02@gmail.com**
+- 🔭 I'm currently working on **Full Stack Web Development & Security**
+- 🌱 I'm currently learning **Web Security, Network Security, Azure DevOps & CI/CD**
+- 👯 I'm looking to collaborate on **Security projects, DevOps solutions & Web development**
+- 💬 Ask me about **Laravel, Vue.js, React, Cybersecurity, Azure DevOps**
+- 📫 How to reach me: **lakindu02@gmail.com** | **[LinkedIn](https://linkedin.com/in/lakipop)**
 - ⚡ Fun fact: **Martial arts enthusiast, Fitness lover & K-POP fan** 🥋💪🎶
 
 ---
@@ -71,18 +71,12 @@ I'm a passionate developer and creative thinker with a strong interest in **scie
 
 <div align="center">
 
-| 👨‍💻 **Languages** | 🚀 **Technologies** |
-|:---:|:---:|
-| JavaScript, Java, PHP, HTML, CSS | Frontend: Vue, React, TailwindCSS |
-| Python, TypeScript | Backend: Laravel, Spring Boot |
-| SQL, NoSQL | Databases: MySQL, PostgreSQL |
-
-| 🎯 **Current Focus** | 🌟 **Interests** |
-|:---:|:---:|
-| Advanced Java & Spring Boot | Science & Research 🔬 |
-| Database Architecture | Art & Design 🎨 |
-| System Design | Martial Arts 🥋 |
-| Clean Code Principles | K-POP Music 🎶 |
+| 👨‍💻 **Languages** | 🚀 **Technologies** | 🎯 **Current Focus** | 🌟 **Interests** |
+|:---:|:---:|:---:|:---:|
+| JavaScript, Java, PHP | Frontend: Vue, React, TailwindCSS | Web Security & Network Security | Science & Research 🔬 |
+| Dart, TypeScript, SQL | Backend: Laravel, Spring Boot | Token Management & Authentication | Art & Design 🎨 |
+| HTML, CSS, NoSQL | DevOps: Azure, CI/CD, Docker | Backend & Frontend Security | Martial Arts 🥋 |
+| PowerShell, Bash | Databases: MySQL, PostgreSQL | Azure DevOps & Deployment | K-POP Music 🎶 |
 
 </div>
 
