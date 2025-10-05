@@ -51,8 +51,24 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <!-- GitHub Stats Card -->
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&custom_title=lakipop's%20Github%20Stats" alt="GitHub Stats"/>
+  
+  <!-- GitHub Streak Stats -->
+  <img width="49%" src="https://streak-stats.demolab.com?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  
+  <!-- GitHub Activity Graph -->
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
+  
+  <!-- Most Used Languages -->
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lakipop&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
+</div>
+
+<!-- Small stats in a row -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=lakipop&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/lakipop?label=Followers&style=social" alt="followers" />
+  <img src="https://img.shields.io/github/stars/lakipop?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=social" alt="stars" />
 </div>
 
 
