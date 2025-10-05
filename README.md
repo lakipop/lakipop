@@ -52,7 +52,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 <div align="center">
   <!-- GitHub Stats Card -->
-  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&custom_title=lakipop's%20Github%20Stats" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
   
   <!-- GitHub Streak Stats -->
   <img width="49%" src="https://streak-stats.demolab.com?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
