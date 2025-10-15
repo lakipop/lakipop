@@ -50,7 +50,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<!--  <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&theme=radical&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div> 
@@ -58,14 +58,14 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div> 
+</div>  -->
 
 <!-- Small stats in a row -->
-<!-- <div align="center">
+<div align="center">
   <img src="https://komarev.com/ghpvc/?username=lakipop&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/lakipop?label=Followers&style=social" alt="followers" />
   <img src="https://img.shields.io/github/stars/lakipop?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=social" alt="stars" />
-</div> -->
+</div> 
 
 
 <!-- <div align="center">
