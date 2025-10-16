@@ -24,12 +24,12 @@ jobs:
         with:
           github_user_name: lakipop
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generate activity graph (this creates a contribution calendar)
+      # Generate activity graph
       - name: Generate activity graph  
         uses: lowlighter/metrics@latest
         with:
@@ -38,47 +38,15 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Colombo
-          config_display: large
-          config_output: svg
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 30
-          plugin_habits_facts: no
-          plugin_habits_from: 200
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          filename: metrics-calendar.svg
+          filename: assets/contribution-graph.svg
 
-      # Copy metrics to dist folder with correct name
-      - name: Copy metrics to dist
+      # Commit and push to main branch
+      - name: Commit and push changes
         run: |
-          cp metrics-calendar.svg dist/pacman-contribution-graph.svg
-          
-      # Generate 3D contribution calendar (this looks really cool!)
-      - name: Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-          USERNAME: lakipop
-      
-      # Move 3D calendar to dist
-      - name: Move 3D calendar
-        run: |
-          mv profile-3d-contrib/profile-gitblock.svg dist/github-contribution-grid-snake.svg || true
-          mv profile-3d-contrib/profile-green-animate.svg dist/profile-3d.svg || true
-
-      # List files to debug
-      - name: List generated files
-        run: |
-          echo "Files in dist folder:"
-          ls -la dist/
-
-      # Deploy to output branch
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/*.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update generated SVGs [skip ci]"
+          git push
