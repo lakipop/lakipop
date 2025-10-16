@@ -51,12 +51,11 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lakipop&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=lakipop&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lakipop&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=lakipop&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph"  />
 </div>
-
 
 
 <!-- Small stats in a row -->
@@ -107,10 +106,11 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 <!-- Snake eating contributions -->
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg" alt="Snake animation" />
-<!-- Contribution calendar -->
-<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg" alt="Contribution Graph" />
-<!-- Optional: 3D Profile -->
-<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d.svg" alt="3D Contribution" />
+<!-- Contribution Calendar -->
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/contribution-calendar.svg" alt="Contribution Calendar" />
+<!-- 3D Contribution Profile (if generated) -->
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d.svg" alt="3D Profile" />
+
 </div>
 
 <div align="center">
