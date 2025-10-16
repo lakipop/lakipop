@@ -56,7 +56,6 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
   <img src="https://streak-stats.demolab.com?user=lakipop&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
-  <img src="https://streak-stats.demolab.com?user=lakipop&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
 
 
 
@@ -66,11 +65,6 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
   <img src="https://img.shields.io/github/followers/lakipop?label=Followers&style=social" alt="followers" />
   <img src="https://img.shields.io/github/stars/lakipop?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=social" alt="stars" />
 </div> 
-
-
-<!-- <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lakipop&layout=compact&theme=tokyonight&hide_border=true&count_private=true&langs_count=8" alt="Top Languages" />
-</div> -->
 
 
 ---
@@ -117,13 +111,8 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
 </picture>
 
-###
-
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
-<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
-###
 
-###
 </div>
 
 <div align="center">
