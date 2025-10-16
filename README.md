@@ -57,9 +57,8 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 </div> -->
 
 <div align="center">
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=radical)
-
+![Lakipop's GitHub stats](https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=radical)
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>  
 
 
