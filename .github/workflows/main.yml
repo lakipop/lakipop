@@ -56,19 +56,40 @@ jobs:
           filename: dist/activity-graph.svg
         continue-on-error: true
       
-      # Generate 3D contribution profile
-      - name: Generate 3D profile
+      # Generate 3D contribution profile (Green - Light mode)
+      - name: Generate 3D profile (Light)
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: lakipop
+          SETTING_JSON: |
+            {
+              "type": "normal",
+              "backgroundColor": "#ffffff",
+              "foregroundColor": "#00000f"
+            }
+        continue-on-error: true
+      
+      # Generate 3D contribution profile (Dark mode)
+      - name: Generate 3D profile (Dark)
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: lakipop
+          SETTING_JSON: |
+            {
+              "type": "night-view",
+              "backgroundColor": "#0d1117",
+              "foregroundColor": "#ffffff"
+            }
         continue-on-error: true
       
       # Move 3D files to dist
       - name: Move 3D files
         run: |
           if [ -d "profile-3d-contrib" ]; then
-            cp profile-3d-contrib/profile-green-animate.svg dist/profile-3d.svg 2>/dev/null || echo "No 3D animation"
+            cp profile-3d-contrib/profile-green-animate.svg dist/profile-3d.svg 2>/dev/null || echo "No 3D light"
+            cp profile-3d-contrib/profile-night-view.svg dist/profile-3d-dark.svg 2>/dev/null || echo "No 3D dark"
             cp profile-3d-contrib/profile-gitblock.svg dist/profile-gitblock.svg 2>/dev/null || echo "No gitblock"
           fi
         continue-on-error: true
