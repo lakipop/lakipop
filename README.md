@@ -120,6 +120,8 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 ###
 
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
+###
 
 ###
 </div>
