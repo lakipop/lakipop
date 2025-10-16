@@ -2,7 +2,7 @@ name: Generate README Animations
 
 on:
   schedule:
-     - cron: "0 */24 * * *" # Runs every 24 hours
+    - cron: "0 0 * * *" # Runs daily at midnight
   workflow_dispatch: # Manual trigger
   push:
     branches:
@@ -27,22 +27,51 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generate contribution graph with metrics
-      - name: Generate contribution graph
+      # Generate activity graph (this creates a contribution calendar)
+      - name: Generate activity graph  
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: lakipop
           template: classic
-          base: activity
+          base: ""
           config_timezone: Asia/Colombo
+          config_display: large
+          config_output: svg
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 30
+          plugin_habits_facts: no
+          plugin_habits_from: 200
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          filename: dist/contribution-graph.svg
-          output_action: none
-          optimize: svg
+          filename: metrics-calendar.svg
+
+      # Copy metrics to dist folder with correct name
+      - name: Copy metrics to dist
+        run: |
+          cp metrics-calendar.svg dist/pacman-contribution-graph.svg
+          
+      # Generate 3D contribution calendar (this looks really cool!)
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: lakipop
+      
+      # Move 3D calendar to dist
+      - name: Move 3D calendar
+        run: |
+          mv profile-3d-contrib/profile-gitblock.svg dist/github-contribution-grid-snake.svg || true
+          mv profile-3d-contrib/profile-green-animate.svg dist/profile-3d.svg || true
+
+      # List files to debug
+      - name: List generated files
+        run: |
+          echo "Files in dist folder:"
+          ls -la dist/
 
       # Deploy to output branch
       - name: Deploy to output branch
@@ -52,4 +81,4 @@ jobs:
           build_dir: dist
           keep_history: false
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
