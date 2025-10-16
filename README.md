@@ -50,15 +50,9 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 ## 📊 GitHub Stats
 
-<!--  <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&theme=radical&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  <img width="49%" src="https://metrics.lecoq.io/lakipop?template=classic&config=dark" alt="GitHub Stats" />
-</div> -->
-
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.vercel.app/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lakipop&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
 
@@ -113,7 +107,17 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 <div align="center">
   
-![github-contribution-grid-snake](assets/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+</picture>
+
+###
+
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
+
+###
 </div>
 
 <div align="center">
