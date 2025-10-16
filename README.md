@@ -107,7 +107,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 <!-- Snake eating contributions -->
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg" alt="Snake animation" />
 <!-- Contribution Calendar -->
-<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/contribution-calendar.svg" alt="Contribution Calendar" />
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/contribution-calendar.svg" alt="Calendar" />
 <!-- 3D Contribution Profile (if generated) -->
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d.svg" alt="3D Profile" />
 
@@ -115,6 +115,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 <div align="center">
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=true&area=true&height=300" alt="Activity Graph" />
+  <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/activity-graph.svg" alt="Activity" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lakipop&theme=tokyonight" alt="Profile Summary" />
 </div>
 
