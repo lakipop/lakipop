@@ -106,7 +106,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 <div align="center">
 
 <!-- Snake eating contributions -->
-<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg" alt="Snake animation" />
 <!-- Contribution calendar -->
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg" alt="Contribution Graph" />
 <!-- Optional: 3D Profile -->
