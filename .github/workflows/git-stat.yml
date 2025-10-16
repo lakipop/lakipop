@@ -40,13 +40,9 @@ jobs:
           config_timezone: Asia/Colombo
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          filename: dist/contribution-graph.svg
           output_action: none
           optimize: svg
-          
-      - name: Move metrics to dist
-        run: |
-          mkdir -p dist
-          cp github-metrics.svg dist/contribution-graph.svg
 
       # Deploy to output branch
       - name: Deploy to output branch
@@ -56,4 +52,4 @@ jobs:
           build_dir: dist
           keep_history: false
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
