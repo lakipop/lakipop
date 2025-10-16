@@ -57,9 +57,9 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 </div> -->
 
 <div align="center">
-![Lakipop's GitHub stats](https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=radical)
-</div>  
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.vercel.app/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
 
 <!-- Small stats in a row -->
