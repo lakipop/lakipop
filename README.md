@@ -104,15 +104,13 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 ## 📈 GitHub Activity & Contributions
 
 <div align="center">
-  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
-</picture>
 
+<!-- Snake eating contributions -->
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake.svg" alt="Snake animation" />
-
+<!-- Contribution calendar -->
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg" alt="Contribution Graph" />
+<!-- Optional: 3D Profile -->
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d.svg" alt="3D Contribution" />
 </div>
 
 <div align="center">
