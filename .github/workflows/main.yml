@@ -1,9 +1,12 @@
-name: Generate Snake
+name: Generate Profile Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Runs daily at midnight
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches:
+      - main  # Auto-run when you push to main
 
 jobs:
   generate:
@@ -12,8 +15,10 @@ jobs:
       contents: write
     
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       
+      # Generate snake animation
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -22,13 +27,57 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
       
-      - name: Show what was created
-        run: ls -la dist/
+      # Generate contribution calendar (like pacman graph)
+      - name: Generate contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: lakipop
+          template: classic
+          base: activity, community
+          config_timezone: Asia/Colombo
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          filename: dist/contribution-calendar.svg
       
-      - name: Push to output branch
+      # Generate activity graph
+      - name: Generate activity graph
+        uses: ashutosh00710/github-readme-activity-graph@master
+        with:
+          username: lakipop
+          theme: github-compact
+          outputs: dist/activity-graph.svg
+        continue-on-error: true
+      
+      # Generate 3D contribution profile
+      - name: Generate 3D profile
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: lakipop
+        continue-on-error: true
+      
+      # Move 3D files to dist
+      - name: Move 3D files
+        run: |
+          if [ -d "profile-3d-contrib" ]; then
+            cp profile-3d-contrib/profile-green-animate.svg dist/profile-3d.svg 2>/dev/null || echo "No 3D animation"
+            cp profile-3d-contrib/profile-gitblock.svg dist/profile-gitblock.svg 2>/dev/null || echo "No gitblock"
+          fi
+        continue-on-error: true
+      
+      # Show all generated files
+      - name: List all generated files
+        run: |
+          echo "=== Generated files ==="
+          ls -lah dist/
+      
+      # Deploy everything to output branch
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
