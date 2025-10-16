@@ -1,9 +1,9 @@
-name: Generate Snake and Contribution Graph
+name: Generate README Animations
 
 on:
   schedule:
-    - cron: "0 */24 * * *" # Runs every 24 hours
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch: # Manual trigger
   push:
     branches:
       - main
@@ -11,60 +11,49 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    permissions:
+      contents: write
     
     steps:
-      # Generate Snake animation
-      - name: Generate Snake
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Generate snake animation
+      - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: lakipop
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
-          
-      # Generate Pacman contribution graph
-      - name: Generate Contribution Graph
-        uses: Readme-Workflows/recent-activity@v2.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          CONFIG_FILE: ".github/config/recent-activity.config.yml"
-          
-      # Alternative: Use this for Pacman-style graph
-      - name: Generate Pacman Graph
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: lakipop
-          template: classic
-          base: ""
-          config_timezone: Asia/Colombo
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          filename: pacman-contribution-graph.svg
-          
-      - name: Generate Pacman Graph (Dark)
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: lakipop
-          template: classic
-          base: ""
-          config_timezone: Asia/Colombo
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          config_display: large
-          config_output: svg
-          filename: pacman-contribution-graph-dark.svg
-          extras_css: |
-            * { color-scheme: dark }
 
-      # Push the generated files to the output branch
-      - name: Push to output branch
+      # Generate contribution graph with metrics
+      - name: Generate contribution graph
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: lakipop
+          template: classic
+          base: activity
+          config_timezone: Asia/Colombo
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          output_action: none
+          optimize: svg
+          
+      - name: Move metrics to dist
+        run: |
+          mkdir -p dist
+          cp github-metrics.svg dist/contribution-graph.svg
+
+      # Deploy to output branch
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
