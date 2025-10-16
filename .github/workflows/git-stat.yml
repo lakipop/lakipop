@@ -2,7 +2,7 @@ name: Generate README Animations
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
+     - cron: "0 */24 * * *" # Runs every 24 hours
   workflow_dispatch: # Manual trigger
   push:
     branches:
@@ -27,7 +27,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
       # Generate contribution graph with metrics
       - name: Generate contribution graph
@@ -52,4 +52,4 @@ jobs:
           build_dir: dist
           keep_history: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
