@@ -60,7 +60,11 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 <img width="49%" src="https://metrics.lecoq.io/lakipop?template=classic&config=dark" alt="GitHub Stats" />
 <img width="49%" src="https://github-readme-streak-stats.vercel.app/?user=lakipop&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+  <img width="49%" src="https://metrics.lecoq.io/lakipop?template=classic&config=dark" alt="GitHub Stats" />
+<img width="49%" src="https://metrics.lecoq.io/lakipop?template=classic&config=dark&x=isocalendar" alt="Contribution Calendar" />
 </div>  
+
 
 <!-- Small stats in a row -->
 <div align="center">
