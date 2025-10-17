@@ -111,7 +111,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 <!-- 3D Contribution Profile (Dark mode) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-rainbow.svg">
   <img alt="3D Profile" src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-rainbow.svg">
 </picture>
 
