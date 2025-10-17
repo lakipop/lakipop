@@ -50,13 +50,14 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 ## 📊 GitHub Stats
 
-<picture width="80%">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+<div align="center" width="100%">
+<!-- Snake eating contributions (Dark mode) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
 </picture>
 
-<div align="center" width="100%">
+
   <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" height="150" alt="stats graph"  />
  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lakipop&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&count_private=true" height="150" alt="languages graph"  /> -->
   <img src="https://streak-stats.demolab.com?user=lakipop&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
@@ -112,10 +113,10 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 <div align="center">
 
-<!-- Snake eating contributions (Dark mode) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
+<picture width="80%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
 </picture>
 
 <div align="center">
