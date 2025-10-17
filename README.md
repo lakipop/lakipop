@@ -51,10 +51,10 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lakipop&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&count_private=true" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" height="150" alt="stats graph"  />
+ <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lakipop&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&count_private=true" height="150" alt="languages graph"  /> -->
   <img src="https://streak-stats.demolab.com?user=lakipop&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph"  />
 </div>
 
 <!-- Small stats in a row -->
@@ -107,6 +107,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
   <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
 </picture>
+
 <div align="center">
   <!-- Activity Graph from external service -->
    <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=true&area=true&height=300" alt="Activity Graph" />
