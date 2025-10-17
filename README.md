@@ -108,11 +108,13 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
   <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
 </picture>
 
+<!-- Contribution Calendar -->
+<img src="https://raw.githubusercontent.com/lakipop/lakipop/output/contribution-calendar.svg" alt="Calendar" />
+
 <!-- 3D Contribution Profile (Dark mode) -->
 <picture>
-  <!-- Contribution Calendar -->
-  <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/contribution-calendar.svg" alt="Calendar" />
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d.svg">
   <img alt="3D Profile" src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-dark.svg">
 </picture>
 
