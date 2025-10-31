@@ -61,7 +61,7 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 <img src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&count_private=true&theme=tokyonight&hide_border=false&border_radius=5&ring_color=7dc4e4&icon_color=7dc4e4&title_color=7dc4e4&text_color=ffffff&bg_color=0D1117&line_height=20" height="150" alt="stats graph" />
 
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lakipop&theme=dark&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="150" alt="streak graph" />
+  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=tokyonight&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="150" alt="streak graph" />
 
    <!--
  <img src="https://github-readme-stats.vercel.app/api?username=lakipop&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" height="150" alt="stats graph"  />
