@@ -120,6 +120,12 @@ I'm a passionate developer and creative thinker with a strong interest in **cybe
 
 ## 📈 GitHub Activity & Contributions
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+</picture>
+
 <div align="center">
   <!-- Activity Graph -->
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=false&border_radius=5&area=true&height=300&bg_color=0D1117&color=7dc4e4&line=7dc4e4&point=7dc4e4&title_color=7dc4e4" alt="Activity Graph" />
