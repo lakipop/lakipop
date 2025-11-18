@@ -34,7 +34,6 @@
       </a>
     </td>
     <td valign="top" width="30%">
-      <h3 align="center">🛠️ Tools & Tech</h3>
    <div align="center">
   <h4 align="center">🌐 Frontend</h4>
   <img src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" />
