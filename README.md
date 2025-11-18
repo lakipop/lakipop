@@ -21,9 +21,10 @@
         <li>🔭 I'm currently working on <b>Full Stack Web Development & Security</b></li>
         <li>🌱 I'm currently learning <b>Web Security, Network Security, Azure DevOps & CI/CD</b></li>
         <li>👯 I'm looking to collaborate on <b>Security projects, DevOps solutions & Web development</b></li>
-        <li>💬 Ask me about <b>Laravel, Vue.js, React, Cybersecurity</b></li>
+        <li>💬 Ask me about <b>Laravel, Vue.js, Cybersecurity, AI/ML or DevOps</b></li>
         <li>⚡ Fun fact: <b>Martial arts enthusiast, Fitness lover & K-POP fan</b> 🥋💪🎶</li>
       </ul>
+    </br>
       <p><b>📫 Let's Connect:</b></p>
       <a href="https://linkedin.com/in/lakipop">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -39,6 +40,7 @@
   <img src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" />
   <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -50,12 +52,19 @@
   <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
   <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
   <br/>
   
   
   <br/>
   
   <h4 align="center">🛠️ Tools & DevOps</h4>
+  <img src="https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
@@ -71,16 +80,18 @@
 <div align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg" height="200">
 </picture>
 
+</br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&count_private=true&theme=gruvbox&hide_border=false&border_radius=5&ring_color=7dc4e4&icon_color=7dc4e4&title_color=7dc4e4&text_color=ffffff&bg_color=0D1117&line_height=20" height="150" alt="stats graph" />
+<img src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&count_private=true&theme=gruvbox&hide_border=false&border_radius=5&ring_color=7dc4e4&icon_color=7dc4e4&title_color=7dc4e4&text_color=ffffff&bg_color=0D1117&line_height=20" height="170" alt="stats graph" />
   
-  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=gruvbox&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="150" alt="streak graph" />
-
-   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph"  />
+  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=gruvbox&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="165" alt="streak graph" />
+</br> </br>
+   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="170" alt="trophy graph"  />
 </div>
+</br>
 
 
 
@@ -94,33 +105,16 @@
 
 ---
 
-## 🎯 What I Focus On
-
-<div align="center">
-  <h3>My Development Stack & Interests</h3>
-</div>
+## 🎯 My Professional Focus & Personal Passions
 
 <div align="center">
 
-| 👨‍💻 **Languages** | 🚀 **Technologies** | 🎯 **Current Focus** | 🌟 **Interests** |
+| 🛡️ **Security & DevOps Focus** | 💻 **Tech Innovation** | 🔬 **Science & Design** | 🌟 **Personal Life** |
 |:---:|:---:|:---:|:---:|
-| JavaScript, Java, PHP | Frontend: Vue, React, TailwindCSS | Web Security & Network Security | Science & Research 🔬 |
-| Dart, TypeScript, SQL | Backend: Laravel, Spring Boot | Token Management & Authentication | Art & Design 🎨 |
-| HTML, CSS, NoSQL | DevOps: Azure, CI/CD, Docker | Backend & Frontend Security | Martial Arts 🥋 |
-| PowerShell, Bash | Databases: MySQL, PostgreSQL | Azure DevOps & Deployment | K-POP Music 🎶 |
-
-</div>
-
----
-
-## 🎨 My Interests
-
-<div align="center">
-
-| 🔬 **Science & Research** | 🎨 **Art & Design** | 🌿 **Nature** | 💻 **Tech Innovation** |
-|:---:|:---:|:---:|:---:|
-| Exploring scientific concepts | UI/UX Design principles | Eco-friendly solutions | Modern web technologies |
-| Research methodologies | Creative problem solving | Sustainable development | Clean code architecture |
+| Web Security & Network Security | Modern Web Technologies | Exploring Scientific Concepts | Martial Arts Enthusiast 🥋 |
+| Token Management & Auth | Clean Code Architecture | Research Methodologies | K-POP Music Fan 🎶 |
+| Azure DevOps & Deployment | Creative Problem Solving | UI/UX Design Principles | Nature & Eco-Solutions 🌿 |
+| Backend & Frontend Security | Sustainable Development | Art & Design 🎨 | Fitness & Well-being 💪 |
 
 </div>
 
@@ -135,9 +129,9 @@
 </picture>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=false&border_radius=5&area=true&height=300&bg_color=0D1117&color=7dc4e4&line=7dc4e4&point=7dc4e4&title_color=7dc4e4" alt="Activity Graph" />
+  <img width="53%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=false&border_radius=5&area=true&height=300&bg_color=0D1117&color=7dc4e4&line=7dc4e4&point=7dc4e4&title_color=7dc4e4" alt="Activity Graph"  />
    
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lakipop&theme=tokyonight&border_radius=5&bg_color=0D1117&title_color=7dc4e4&text_color=ffffff&icon_color=7dc4e4" alt="Profile Summary" />
+  <img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lakipop&theme=tokyonight&border_radius=5&bg_color=0D1117&title_color=7dc4e4&text_color=ffffff&icon_color=7dc4e4" alt="Profile Summary" />
 </div>
 
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-rainbow.svg" alt="3D Rainbow Profile" />
