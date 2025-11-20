@@ -88,7 +88,7 @@
   
   <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=gruvbox&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="165" alt="streak graph" />
 </br> </br>
-   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=monokai&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="170" alt="trophy graph"  />
+   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=monokai&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"  />
 </div>
 </br>
 
