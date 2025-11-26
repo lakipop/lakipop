@@ -84,9 +84,9 @@
 
 </br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&count_private=true&theme=gruvbox&hide_border=false&border_radius=5&ring_color=7dc4e4&icon_color=7dc4e4&title_color=7dc4e4&text_color=ffffff&bg_color=0D1117&line_height=20" height="170" alt="stats graph" />
+<img src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&count_private=true&theme=monokai&hide_border=false&border_radius=5&ring_color=7dc4e4&icon_color=7dc4e4&title_color=7dc4e4&text_color=ffffff&bg_color=0D1117&line_height=20" height="170" alt="stats graph" />
   
-  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=gruvbox&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="165" alt="streak graph" />
+  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=monokai&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="165" alt="streak graph" />
 </br> </br>
    <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=monokai&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"  />
 </div>
