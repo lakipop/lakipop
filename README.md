@@ -19,7 +19,7 @@
       <p>I have a strong interest in <b>cybersecurity</b>, <b>DevOps</b>, and modern <b>web technologies</b>.</p>
       <ul>
         <li>🔭 I'm currently working on <b>Full Stack Web Development & Security</b></li>
-        <li>🌱 I'm currently learning <b>Web Security, Network Security, Azure DevOps & CI/CD</b></li>
+        <li>🌱 I'm currently learning <b>CyberSecurity,Azure | Google Cloud & AI/ML</b></li>
         <li>👯 I'm looking to collaborate on <b>Security projects, DevOps solutions & Web development</b></li>
         <li>💬 Ask me about <b>Laravel, Vue.js, Cybersecurity, AI/ML or DevOps</b></li>
         <li>⚡ Fun fact: <b>Martial arts enthusiast, Fitness lover & K-POP fan</b> 🥋💪🎶</li>
