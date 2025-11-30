@@ -77,18 +77,21 @@
 ## 📊 GitHub Stats
 
 <div align="center" width="100%">
+</br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg" height="200">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg" height="150">
 </picture>
-
+</br>
 </br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=lakipop&show_icons=true&count_private=true&theme=monokai&hide_border=false&border_radius=5&ring_color=7dc4e4&icon_color=7dc4e4&title_color=7dc4e4&text_color=ffffff&bg_color=0D1117&line_height=20" height="170" alt="stats graph" />
+<img src="https://awesome-github-stats.azurewebsites.net/user-stats/lakipop?theme=dark&cardType=level" height="195" alt="Awesome GitHub Stats" />
+<img src="https://streak-stats.demolab.com?user=lakipop&theme=aura&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly" height="200" alt="GitHub Streak" />
   
-  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=monokai&hide_border=false&background=0D1117&stroke=0D1117&ring=60D9FA&fire=60D9FA&currStreakLabel=60D9FA" height="165" alt="streak graph" />
 </br> </br>
-   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=monokai&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"  />
+   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"  />
+   
 </div>
 </br>
 
@@ -122,9 +125,8 @@
 ## 📈 GitHub Activity & Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/lakipop/lakipop/output/snake-dark.svg" height="210">
 </picture>
 
 <div align="center">
