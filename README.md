@@ -91,7 +91,9 @@
   
 </br> </br>
    <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"  />
-   
+
+   <!--[![Trophy](https://github-profile-trophy.vercel.app/?username=lakipop&theme=monokai&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)-->
+   ![My Metrics](https://github.com/lakipop/lakipop/blob/main/github-metrics.svg)
 </div>
 </br>
 
