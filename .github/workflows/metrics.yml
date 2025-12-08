@@ -1,10 +1,7 @@
-name: Metrics
+name: Trophies Only
 on:
-  # Schedule daily updates (00:00 UTC)
   schedule: [{cron: "0 0 * * *"}]
-  # (Optional) Run workflow manually
   workflow_dispatch:
-  # (Optional) Run workflow when pushing to master/main
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -14,62 +11,18 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: lakipop
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Colombo
+          filename: trophies.svg
           
-          # --- THEME CONFIGURATION (Tokyo Night) ---
-          # We use "extras_css" to force the Tokyo Night colors
-          extras_css: |
-            :root {
-              --color-text-primary: #a9b1d6;
-              --color-text-secondary: #787c99;
-              --color-text-tertiary: #565f89;
-              --color-calendar-graph-day-bg: #1a1b26;
-              --color-calendar-graph-day-L1-bg: #414868;
-              --color-calendar-graph-day-L2-bg: #2ac3de;
-              --color-calendar-graph-day-L3-bg: #7aa2f7;
-              --color-calendar-graph-day-L4-bg: #bb9af7;
-              --color-calendar-halloween-graph-day-L1-bg: #f7768e;
-            }
-            /* Background Color */
-            .field { fill: #1a1b26 !important; }
-            svg { background-color: #1a1b26 !important; border-radius: 10px; }
-            
-            /* Text Colors */
-            h1, h2, h3 { color: #7aa2f7 !important; text-shadow: none !important; }
-            strong { color: #bb9af7 !important; }
-            .gray { color: #565f89 !important; }
-            .icon svg { fill: #7aa2f7 !important; }
+          # This removes the "Huge Box" background and user info
+          base: "" 
           
-          # --- PLUGINS (Enable what you want here) ---
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: repositories
-
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          
-          # Trophies/Achievements
+          # This enables ONLY the trophies
           plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C   # Display achievements with rank C or higher
-          plugin_achievements_secrets: yes   # Display unlocked secrets (like "Mars 2020")
-          plugin_achievements_limit: 0       # Display all unlocked achievements
+          plugin_achievements_display: compact  # Makes it a horizontal strip
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_limit: 0
+          
+          # FIXES THE ERROR:
+          plugin_achievements_ignored: manager
