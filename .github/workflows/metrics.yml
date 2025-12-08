@@ -70,7 +70,6 @@ jobs:
           # Trophies/Achievements
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: no     # Turn off temporarily (often causes errors)
-          plugin_achievements_limit: 0
-          plugin_achievements_ignored: manager # <--- FIX: Ignores the broken achievement
+          plugin_achievements_threshold: C   # Display achievements with rank C or higher
+          plugin_achievements_secrets: yes   # Display unlocked secrets (like "Mars 2020")
+          plugin_achievements_limit: 0       # Display all unlocked achievements
