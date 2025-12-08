@@ -87,17 +87,14 @@
 </br>
 
 <img src="https://awesome-github-stats.azurewebsites.net/user-stats/lakipop?theme=dark&cardType=level" height="195" alt="Awesome GitHub Stats" />
-<img src="https://streak-stats.demolab.com?user=lakipop&theme=aura&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly"  alt="GitHub Streak" />
-<object data="https://streak-stats.demolab.com?user=lakipop&theme=aura&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly" type="image/svg+xml">
-  <img src="https://git-streak-stats.vercel.app/?user=lakipop&theme=aura&hide_border=false" alt="GitHub Streak Fallback" />
-</object>
 
+<!--<img src="https://streak-stats.demolab.com?user=lakipop&theme=aura&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly"  alt="GitHub Streak" />-->
+<img src="https://github-readme-streak-stats-steel-pi.vercel.app?user=lakipop&private=true&theme=gruvbox-duo&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="GitHub Streak" />
   
 </br> </br>
    <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" alt="trophy graph"  />
 
-  [![Trophy](https://github-profile-trophy.vercel.app/?username=lakipop&theme=monokai&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-      ![My Metrics](https://github.com/lakipop/lakipop/blob/main/github-metrics.svg)
+ ![Trophies](https://github.com/lakipop/lakipop/blob/main/trophies.svg)
 
 </div>
 </br>
