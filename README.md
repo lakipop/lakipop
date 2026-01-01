@@ -92,7 +92,8 @@
 <img src="https://github-readme-streak-stats-steel-pi.vercel.app?user=lakipop&private=true&theme=gruvbox-duo&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="GitHub Streak" />
   
 </br> </br>
-   <img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=false&column=3&margin-w=15&margin-h=15" alt="trophy graph"  />
+   <!--<img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=false&column=4&margin-w=15&margin-h=15" alt="trophy graph"  /> -->
+   [![Trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=lakipop&theme=discord&no-bg=true&margin-w=15&margin-h=15&column=4&row=2)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 </br>
