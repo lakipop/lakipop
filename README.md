@@ -90,7 +90,6 @@
 
 <!--<img src="https://streak-stats.demolab.com?user=lakipop&theme=aura&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly"  alt="GitHub Streak" />-->
 <img src="https://github-readme-streak-stats-steel-pi.vercel.app?user=lakipop&private=true&theme=gruvbox-duo&hide_border=false&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="GitHub Streak" />
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-steel-pi.vercel.app?user=lakipop&theme=gruvbox-duo" alt="GitHub Streak" /></a>
   
 </br> </br>
    <!--<img src="https://github-profile-trophy.vercel.app?username=lakipop&theme=discord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=false&column=4&margin-w=15&margin-h=15" alt="trophy graph"  /> -->
