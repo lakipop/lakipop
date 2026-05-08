@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Passionate+Developer+%26+Creative+Thinker;Full+Stack+Web+Developer;UI%2FUX+Designer;Science+%26+Art+Enthusiast" alt="Typing SVG" />
+  <picture>
+    <img src="./header.svg" width="100%" alt="Lakindu Vidanaarachchi Banner">
+  </picture>
 </div>
-
-<br/>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=lakipop&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
