@@ -1,0 +1,235 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.1; }
+    }
+    @keyframes scan {
+      0%   { transform: translateY(-4px); opacity: 0; }
+      4%   { opacity: 0.18; }
+      96%  { opacity: 0.18; }
+      100% { transform: translateY(308px); opacity: 0; }
+    }
+    @keyframes spin-cw  { to { transform: rotate(360deg);  } }
+    @keyframes spin-ccw { to { transform: rotate(-360deg); } }
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0px);  }
+      50%      { transform: translateY(-7px); }
+    }
+    @keyframes fadein-l {
+      from { opacity: 0; transform: translateX(-14px); }
+      to   { opacity: 1; transform: translateX(0px);  }
+    }
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @keyframes nameglow {
+      0%, 100% { filter: drop-shadow(0 0 7px rgba(27,207,173,0.35)); }
+      50%      { filter: drop-shadow(0 0 18px rgba(27,207,173,0.65)); }
+    }
+    @keyframes linegrow {
+      from { transform: scaleX(0); }
+      to   { transform: scaleX(1); }
+    }
+
+    .dot     { animation: blink     1.8s ease-in-out infinite; }
+    .scanbar { animation: scan      5.5s linear      infinite; }
+    .orbit-a { animation: spin-cw   24s  linear      infinite; transform-origin: 0px 0px; }
+    .orbit-b { animation: spin-ccw  16s  linear      infinite; transform-origin: 0px 0px; }
+    .fa      { animation: floaty    3.4s ease-in-out infinite; }
+    .fb      { animation: floaty    3.4s ease-in-out 1s   infinite; }
+    .fc      { animation: floaty    3.4s ease-in-out 2s   infinite; }
+
+    .t-name  { animation: fadein-l 0.7s 0.05s ease-out both, nameglow 4s 1s ease-in-out infinite; }
+    .t-sub   { animation: fadein-l 0.7s 0.2s  ease-out both; }
+    .t-sep   { animation: linegrow 0.6s 0.38s ease-out both; transform-origin: left center; }
+    .t-role  { animation: fadein   0.7s 0.45s ease-out both; }
+    .t-tags  { animation: fadein   0.7s 0.6s  ease-out both; }
+    .t-quote { animation: fadein   0.7s 0.8s  ease-out both; }
+    .t-right { animation: fadein   0.9s 0.3s  ease-out both; }
+  </style>
+
+  <!-- Backgrounds -->
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   stop-color="#050c0a"/>
+    <stop offset="55%"  stop-color="#060d0b"/>
+    <stop offset="100%" stop-color="#08100e"/>
+  </linearGradient>
+  <radialGradient id="glow-l" cx="18%" cy="55%" r="45%">
+    <stop offset="0%"   stop-color="#0d3d2e" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#050e0b" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow-r" cx="80%" cy="45%" r="38%">
+    <stop offset="0%"   stop-color="#0a2a3a" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#050e0b" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orb-glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#1bcfad" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#1bcfad" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Filters -->
+  <filter id="fg" x="-25%" y="-25%" width="150%" height="150%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="fg2" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <!-- Grid -->
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+    <path d="M44 0H0V44" stroke="#1a3028" stroke-width="0.4" fill="none" opacity="0.5"/>
+  </pattern>
+
+  <!-- Clip -->
+  <clipPath id="clip"><rect width="900" height="300" rx="10"/></clipPath>
+</defs>
+
+<g clip-path="url(#clip)">
+
+  <!-- ── Base Layers ── -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+  <rect width="900" height="300" fill="url(#glow-l)"/>
+  <rect width="900" height="300" fill="url(#glow-r)"/>
+  <rect width="900" height="300" fill="url(#grid)"/>
+
+  <!-- Scan line -->
+  <rect class="scanbar" x="0" y="-3" width="900" height="3" fill="#1bcfad"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#1bcfad" stroke-width="1.4" fill="none" opacity="0.5">
+    <path d="M24,9  L9,9  L9,24"/>
+    <path d="M876,9  L891,9  L891,24"/>
+    <path d="M24,291 L9,291  L9,276"/>
+    <path d="M876,291 L891,291 L891,276"/>
+  </g>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="294" width="900" height="6" fill="#1bcfad" opacity="0.55"/>
+  <rect x="0" y="294" width="280" height="6" fill="#1bcfad" opacity="0.35"/>
+
+  <!-- Watermark L -->
+  <text x="826" y="290" font-family="'Segoe UI',Arial,sans-serif" font-size="170" font-weight="900"
+        fill="#1bcfad" opacity="0.032">L</text>
+
+  <!-- ── LEFT CONTENT ── -->
+
+  <!-- Status indicator -->
+  <g transform="translate(36,40)">
+    <circle class="dot" cx="5" cy="4.5" r="4" fill="#1bcfad" filter="url(#fg)"/>
+    <text x="17" y="9" font-family="'Courier New',Courier,monospace" font-size="10.5"
+          fill="#1bcfad" letter-spacing="2.2" opacity="0.88">WORKING ON 3 PROJECTS..</text>
+  </g>
+
+  <!-- LAKINDU -->
+  <text class="t-name" x="32" y="147"
+        font-family="'Arial Black','Arial',Helvetica,sans-serif"
+        font-size="84" font-weight="900" fill="#ffffff" letter-spacing="-2">LAKINDU</text>
+
+  <!-- VIDANAARACHCHI -->
+  <text class="t-sub" x="37" y="173"
+        font-family="'Courier New',Courier,monospace"
+        font-size="17.5" fill="#3a8a72" letter-spacing="9.5">VIDANAARACHCHI</text>
+
+  <!-- Separator line -->
+  <rect class="t-sep" x="36" y="187" width="230" height="1.5" fill="#1bcfad" opacity="0.7" rx="1"/>
+
+  <!-- Role -->
+  <text class="t-role" x="37" y="210"
+        font-family="'Segoe UI',Arial,Helvetica,sans-serif"
+        font-size="12.5" fill="#6ee8cc" letter-spacing="0.7" opacity="0.85">
+    Passionate Developer  ·  Creative Thinker
+  </text>
+
+  <!-- Tag pills -->
+  <g class="t-tags" font-family="'Courier New',Courier,monospace" font-size="10.5">
+    <!-- Full Stack -->
+    <rect x="36"  y="224" width="82"  height="22" rx="3"
+          fill="#1bcfad" fill-opacity="0.07" stroke="#1bcfad" stroke-width="0.8" stroke-opacity="0.45"/>
+    <text x="77"  y="239" text-anchor="middle" fill="#6ee8cc" opacity="0.95">Full Stack</text>
+
+    <!-- Cybersecurity -->
+    <rect x="126" y="224" width="106" height="22" rx="3"
+          fill="#1bcfad" fill-opacity="0.07" stroke="#1bcfad" stroke-width="0.8" stroke-opacity="0.45"/>
+    <text x="179" y="239" text-anchor="middle" fill="#6ee8cc" opacity="0.95">Cybersecurity</text>
+
+    <!-- DevOps -->
+    <rect x="240" y="224" width="68"  height="22" rx="3"
+          fill="#1bcfad" fill-opacity="0.07" stroke="#1bcfad" stroke-width="0.8" stroke-opacity="0.45"/>
+    <text x="274" y="239" text-anchor="middle" fill="#6ee8cc" opacity="0.95">DevOps</text>
+
+    <!-- UI/UX -->
+    <rect x="316" y="224" width="58"  height="22" rx="3"
+          fill="#7c3aed" fill-opacity="0.1" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="345" y="239" text-anchor="middle" fill="#a78bfa" opacity="0.92">UI / UX</text>
+  </g>
+
+  <!-- Quote -->
+  <text class="t-quote" x="37" y="278"
+        font-family="'Courier New',Courier,monospace"
+        font-size="9.5" fill="#3a5a50" font-style="italic" opacity="0.9">
+    // Bridging the gap between science, art, and technology
+  </text>
+
+  <!-- Vertical divider -->
+  <line x1="565" y1="28" x2="565" y2="272"
+        stroke="#1bcfad" stroke-width="0.4" stroke-opacity="0.14"/>
+
+  <!-- ── RIGHT DECORATION ── -->
+  <g class="t-right" transform="translate(720,148)">
+
+    <!-- Ambient glow -->
+    <circle r="118" fill="url(#orb-glow)"/>
+    <circle r="112" fill="none" stroke="#1bcfad" stroke-width="0.3"
+            stroke-opacity="0.12" filter="url(#fg2)"/>
+
+    <!-- Outer orbit (CW) -->
+    <g class="orbit-a">
+      <circle r="100" fill="none" stroke="#1bcfad"
+              stroke-width="0.75" stroke-dasharray="5 11" stroke-opacity="0.28"/>
+      <circle cx="0"  cy="-100" r="4.5" fill="#1bcfad" opacity="0.9" filter="url(#fg)"/>
+      <circle cx="0"  cy="100"  r="2.5" fill="#1bcfad" opacity="0.45"/>
+    </g>
+
+    <!-- Inner orbit (CCW) -->
+    <g class="orbit-b">
+      <circle r="74" fill="none" stroke="#7c3aed"
+              stroke-width="0.75" stroke-dasharray="3 9" stroke-opacity="0.38"/>
+      <circle cx="-74" cy="0" r="3.5" fill="#a78bfa" opacity="0.9" filter="url(#fg)"/>
+      <circle cx="74"  cy="0" r="2"   fill="#a78bfa" opacity="0.5"/>
+    </g>
+
+    <!-- Center circle -->
+    <circle r="47" fill="#060d0b" stroke="#1bcfad" stroke-width="1" stroke-opacity="0.55"/>
+    <circle r="41" fill="#1bcfad" fill-opacity="0.04"/>
+
+    <!-- Center icon { } -->
+    <text text-anchor="middle" y="11"
+          font-family="'Courier New',Courier,monospace"
+          font-size="32" fill="#1bcfad" opacity="0.88" filter="url(#fg)">{ }</text>
+
+    <!-- Floating symbols -->
+    <g font-family="'Courier New',Courier,monospace" fill="#1bcfad">
+      <text class="fa" x="-120" y="-52" font-size="14" opacity="0.38">+</text>
+      <text class="fb" x="110"  y="-42" font-size="12" opacity="0.32">×</text>
+      <text class="fc" x="-100" y="72"  font-size="11" opacity="0.30">◇</text>
+      <text class="fa" x="104"  y="68"  font-size="13" opacity="0.33">+</text>
+      <text class="fb" x="-130" y="18"  font-size="10" opacity="0.28">≡</text>
+      <text class="fc" x="126"  y="22"  font-size="11" opacity="0.28">∘</text>
+    </g>
+
+    <!-- Tech labels -->
+    <g font-family="'Courier New',Courier,monospace" font-size="8.5"
+       fill="#3a6a58" text-anchor="middle" letter-spacing="1.5">
+      <text y="-122">VUE · LARAVEL · REACT</text>
+      <text y="132">AZURE · DOCKER · CLOUD</text>
+    </g>
+
+  </g>
+
+</g>
+</svg>

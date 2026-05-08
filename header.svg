@@ -1,0 +1,356 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Lakindu Vidanaarachchi — Developer Profile</title>
+<defs>
+  <style>
+    @keyframes blink    { 0%,100%{opacity:1} 50%{opacity:0.1} }
+    @keyframes glow     { 0%,100%{opacity:0.7} 50%{opacity:1} }
+    @keyframes floatA   { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-7px)} }
+    @keyframes floatB   { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-11px)} }
+    @keyframes floatC   { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-5px)} }
+    @keyframes scan     { 0%{transform:translateX(-200px)} 100%{transform:translateX(1100px)} }
+    @keyframes fadeUp   { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes fadeIn   { from{opacity:0} to{opacity:1} }
+    @keyframes pulseGlow{ 0%,100%{filter:drop-shadow(0 0 4px #1bcfad88)} 50%{filter:drop-shadow(0 0 12px #1bcfadcc)} }
+    @keyframes dash     { to{stroke-dashoffset:-24} }
+
+    .fa1  { animation: fadeUp 0.7s ease 0.0s both }
+    .fa2  { animation: fadeUp 0.7s ease 0.15s both }
+    .fa3  { animation: fadeUp 0.7s ease 0.30s both }
+    .fa4  { animation: fadeUp 0.7s ease 0.45s both }
+    .fa5  { animation: fadeUp 0.7s ease 0.60s both }
+    .fa6  { animation: fadeUp 0.7s ease 0.75s both }
+    .fa7  { animation: fadeUp 0.7s ease 0.90s both }
+    .fi1  { animation: fadeIn 1s ease 0.5s both }
+    .fi2  { animation: fadeIn 1s ease 0.8s both }
+    .fi3  { animation: fadeIn 1s ease 1.1s both }
+
+    .s1   { animation: floatA 4.2s ease-in-out infinite }
+    .s2   { animation: floatB 5.5s ease-in-out infinite 0.8s }
+    .s3   { animation: floatC 3.8s ease-in-out infinite 1.5s }
+    .s4   { animation: floatA 6.0s ease-in-out infinite 0.4s }
+    .s5   { animation: floatB 4.8s ease-in-out infinite 2.0s }
+
+    .glow-pulse { animation: pulseGlow 3s ease-in-out infinite }
+    .blink-dot  { animation: blink 1.6s step-end infinite }
+    .scan-line  { animation: scan 5s linear infinite }
+    .dash-anim  { animation: dash 1.2s linear infinite }
+    .glow-cycle { animation: glow 2.8s ease-in-out infinite }
+  </style>
+
+  <radialGradient id="bg-center" cx="38%" cy="55%" r="65%">
+    <stop offset="0%"   stop-color="#0d3d2e" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#050e0b" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bg-right" cx="90%" cy="25%" r="50%">
+    <stop offset="0%"   stop-color="#072233" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#050e0b" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="name-glow" cx="0%" cy="50%" r="100%">
+    <stop offset="0%"   stop-color="#1bcfad" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#1bcfad" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="name-grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#ffffff"/>
+    <stop offset="55%"  stop-color="#e8f8f5"/>
+    <stop offset="100%" stop-color="#1bcfad"/>
+  </linearGradient>
+  <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#1bcfad" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#1bcfad" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="bottom-bar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#1bcfad" stop-opacity="0"/>
+    <stop offset="30%"  stop-color="#1bcfad" stop-opacity="0.8"/>
+    <stop offset="70%"  stop-color="#1bcfad" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#1bcfad" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="panel-grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#0d2219" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#060d0b" stop-opacity="1"/>
+  </linearGradient>
+
+  <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="tight-glow" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur stdDeviation="2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <clipPath id="card-clip">
+    <rect width="900" height="300" rx="12"/>
+  </clipPath>
+  <clipPath id="panel-clip">
+    <rect x="556" y="30" width="318" height="240" rx="8"/>
+  </clipPath>
+</defs>
+
+<!-- ── CARD ── -->
+<g clip-path="url(#card-clip)">
+
+  <!-- BG layers -->
+  <rect width="900" height="300" fill="#060d0b"/>
+  <rect width="900" height="300" fill="url(#bg-center)"/>
+  <rect width="900" height="300" fill="url(#bg-right)"/>
+
+  <!-- Grid -->
+  <g stroke="#1a3028" stroke-width="0.45" opacity="0.28" fill="none">
+    <line x1="0"   y1="75"  x2="900" y2="75"/>
+    <line x1="0"   y1="150" x2="900" y2="150"/>
+    <line x1="0"   y1="225" x2="900" y2="225"/>
+    <line x1="112" y1="0"   x2="112" y2="300"/>
+    <line x1="225" y1="0"   x2="225" y2="300"/>
+    <line x1="337" y1="0"   x2="337" y2="300"/>
+    <line x1="450" y1="0"   x2="450" y2="300"/>
+    <line x1="562" y1="0"   x2="562" y2="300"/>
+    <line x1="675" y1="0"   x2="675" y2="300"/>
+    <line x1="787" y1="0"   x2="787" y2="300"/>
+  </g>
+
+  <!-- Scan shimmer -->
+  <rect class="scan-line" x="-200" y="0" width="180" height="300"
+        fill="url(#name-glow)" opacity="0.4"/>
+
+  <!-- Top-right corner brackets -->
+  <g stroke="#1bcfad" stroke-width="0.8" fill="none" opacity="0.22">
+    <line x1="780" y1="0"   x2="900" y2="0"/>
+    <line x1="900" y1="0"   x2="900" y2="100"/>
+    <line x1="818" y1="0"   x2="900" y2="82"/>
+    <line x1="868" y1="0"   x2="900" y2="32"/>
+  </g>
+  <!-- Bottom-left corner -->
+  <g stroke="#1bcfad" stroke-width="0.6" fill="none" opacity="0.14">
+    <line x1="0"  y1="260" x2="55"  y2="300"/>
+    <line x1="0"  y1="280" x2="28"  y2="300"/>
+    <line x1="0"  y1="240" x2="80"  y2="300"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="3" height="300" fill="url(#accent-line)" opacity="0.9"/>
+
+  <!-- Floating code symbols -->
+  <g fill="#1bcfad" font-family="monospace" opacity="0.065">
+    <text class="s1" x="490" y="38"  font-size="17">{ }</text>
+    <text class="s2" x="642" y="72"  font-size="16">&#60;/&#62;</text>
+    <text class="s3" x="728" y="28"  font-size="14">fn()</text>
+    <text class="s4" x="820" y="118" font-size="16">{ }</text>
+    <text class="s5" x="480" y="278" font-size="14">λ</text>
+    <text class="s1" x="808" y="265" font-size="13">→</text>
+    <text class="s2" x="862" y="198" font-size="12">01</text>
+    <text class="s3" x="612" y="262" font-size="13">&#47;&#47;</text>
+  </g>
+
+  <!-- Watermark L -->
+  <text x="370" y="340" fill="#1bcfad" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="340" font-weight="900" opacity="0.012">L</text>
+
+  <!-- ─────────── LEFT CONTENT ─────────── -->
+
+  <!-- Working badge -->
+  <g class="fa1">
+    <rect x="26" y="22" width="205" height="22" rx="11"
+          fill="#0a1e14" stroke="#1bcfad" stroke-width="0.8" opacity="0.95"/>
+    <circle class="blink-dot" cx="43" cy="33" r="3.5" fill="#1bcfad"/>
+    <text x="53" y="37.5" fill="#6ee8cc"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="9.5"
+          letter-spacing="1.8">WORKING ON 3 PROJECTS..</text>
+  </g>
+
+  <!-- LAKINDU — main name with glow -->
+  <g class="fa2">
+    <text x="26" y="108"
+          fill="url(#name-grad)"
+          font-family="'Segoe UI',Arial,sans-serif"
+          font-size="68" font-weight="900" letter-spacing="-1.5"
+          filter="url(#soft-glow)">LAKINDU</text>
+  </g>
+
+  <!-- Surname -->
+  <g class="fa3">
+    <text x="30" y="136"
+          fill="#90cfc0"
+          font-family="'Segoe UI',Arial,sans-serif"
+          font-size="18" font-weight="300" letter-spacing="9">VIDANAARACHCHI</text>
+  </g>
+
+  <!-- Divider -->
+  <g class="fa3">
+    <rect x="28" y="147" width="300" height="0.8" fill="url(#accent-line)"/>
+  </g>
+
+  <!-- Tagline -->
+  <g class="fa4">
+    <text x="28" y="170"
+          fill="#5ab870"
+          font-family="'Segoe UI',Arial,sans-serif"
+          font-size="11.5" font-style="italic">"Bridging the gap between science, art, and technology."</text>
+  </g>
+
+  <!-- Role chips — row 1 -->
+  <g font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="600">
+    <g class="fa5">
+      <rect x="28"  y="185" width="118" height="19" rx="4.5"
+            fill="#0a1e14" stroke="#1bcfad" stroke-width="0.7"/>
+      <text x="87"  y="198.5" fill="#1bcfad" text-anchor="middle">System Architect</text>
+    </g>
+    <g class="fa5">
+      <rect x="152" y="185" width="78"  height="19" rx="4.5"
+            fill="#0a1e14" stroke="#1bcfad" stroke-width="0.7"/>
+      <text x="191" y="198.5" fill="#1bcfad" text-anchor="middle">Full-Stack</text>
+    </g>
+    <g class="fa5">
+      <rect x="236" y="185" width="67"  height="19" rx="4.5"
+            fill="#0a1e14" stroke="#1bcfad" stroke-width="0.7"/>
+      <text x="270" y="198.5" fill="#1bcfad" text-anchor="middle">DevOps</text>
+    </g>
+    <g class="fa5">
+      <rect x="309" y="185" width="106" height="19" rx="4.5"
+            fill="#0a1e14" stroke="#1bcfad" stroke-width="0.7"/>
+      <text x="362" y="198.5" fill="#1bcfad" text-anchor="middle">Cybersecurity</text>
+    </g>
+  </g>
+
+  <!-- Stack chips — row 2 -->
+  <g font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#2e7a62">
+    <g class="fa6">
+      <rect x="28"  y="211" width="56"  height="17" rx="3.5"
+            fill="#060d0b" stroke="#1a3028" stroke-width="0.6"/>
+      <text x="56"  y="223.5" text-anchor="middle">Vue.js</text>
+    </g>
+    <g class="fa6">
+      <rect x="91"  y="211" width="60"  height="17" rx="3.5"
+            fill="#060d0b" stroke="#1a3028" stroke-width="0.6"/>
+      <text x="121" y="223.5" text-anchor="middle">Laravel</text>
+    </g>
+    <g class="fa6">
+      <rect x="158" y="211" width="84"  height="17" rx="3.5"
+            fill="#060d0b" stroke="#1a3028" stroke-width="0.6"/>
+      <text x="200" y="223.5" text-anchor="middle">Spring Boot</text>
+    </g>
+    <g class="fa6">
+      <rect x="249" y="211" width="54"  height="17" rx="3.5"
+            fill="#060d0b" stroke="#1a3028" stroke-width="0.6"/>
+      <text x="276" y="223.5" text-anchor="middle">Azure</text>
+    </g>
+    <g class="fa6">
+      <rect x="310" y="211" width="56"  height="17" rx="3.5"
+            fill="#060d0b" stroke="#1a3028" stroke-width="0.6"/>
+      <text x="338" y="223.5" text-anchor="middle">Docker</text>
+    </g>
+    <g class="fa6">
+      <rect x="373" y="211" width="56"  height="17" rx="3.5"
+            fill="#060d0b" stroke="#1a3028" stroke-width="0.6"/>
+      <text x="401" y="223.5" text-anchor="middle">Flutter</text>
+    </g>
+  </g>
+
+  <!-- Uni line -->
+  <g class="fa7">
+    <text x="28" y="246"
+          fill="#1a3028" font-family="monospace" font-size="8" letter-spacing="1.2">
+      BICT (Hons) · University of Ruhuna · Sri Lanka
+    </text>
+  </g>
+
+  <!-- ─────────── RIGHT PANEL ─────────── -->
+  <g class="fi1">
+    <!-- Panel bg -->
+    <rect x="556" y="30" width="318" height="238" rx="8"
+          fill="url(#panel-grad)" stroke="#1a3028" stroke-width="0.9" opacity="0.95"/>
+
+    <!-- Panel top cyan accent line -->
+    <rect x="556" y="30" width="318" height="2" rx="0" fill="#1bcfad" opacity="0.5"/>
+
+    <!-- Dashed animated border highlight -->
+    <rect x="556.5" y="30.5" width="317" height="237" rx="7.5"
+          fill="none" stroke="#1bcfad" stroke-width="0.5"
+          stroke-dasharray="6 6" opacity="0.12" class="dash-anim"/>
+
+    <!-- Panel header -->
+    <text x="576" y="52" fill="#2e7a62"
+          font-family="monospace" font-size="8.5" letter-spacing="3">LINKS &amp; ECOSYSTEM</text>
+    <line x1="556" y1="60" x2="874" y2="60"
+          stroke="#1bcfad" stroke-width="0.4" opacity="0.25"/>
+
+    <!-- Portfolio -->
+    <text x="576" y="80" fill="#1bcfad"
+          font-family="'Segoe UI',Arial,sans-serif"
+          font-size="16" font-weight="700" filter="url(#tight-glow)">lakidev.me</text>
+    <text x="576" y="94" fill="#2e7a62"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="9">Portfolio &amp; Dev Ecosystem</text>
+
+    <!-- Separator -->
+    <line x1="576" y1="103" x2="855" y2="103"
+          stroke="#1a3028" stroke-width="0.4" opacity="0.5"/>
+
+    <!-- GitHub -->
+    <text x="576" y="120" fill="#90cfc0"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="500">
+      github.com/lakipop
+    </text>
+    <text x="576" y="132" fill="#2e7a62"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="9">Open source &amp; experiments</text>
+
+    <!-- LinkedIn -->
+    <text x="576" y="150" fill="#90cfc0"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="500">
+      linkedin.com/in/lakipop
+    </text>
+    <text x="576" y="162" fill="#2e7a62"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="9">Professional network</text>
+
+    <!-- Email -->
+    <text x="576" y="180" fill="#90cfc0"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="500">
+      lakindu02@gmail.com
+    </text>
+
+    <!-- Separator -->
+    <line x1="576" y1="192" x2="855" y2="192"
+          stroke="#1bcfad" stroke-width="0.4" opacity="0.18"/>
+
+    <!-- Live ecosystem -->
+    <text x="576" y="206" fill="#2e7a62"
+          font-family="monospace" font-size="8" letter-spacing="2.5">LIVE ECOSYSTEM</text>
+
+    <rect x="576" y="212" width="96" height="16" rx="8"
+          fill="#0a1e14" stroke="#1bcfad" stroke-width="0.55"/>
+    <circle cx="588" cy="220" r="2.5" fill="#1bcfad" class="blink-dot"/>
+    <text x="638" y="223.5" fill="#6ee8cc"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="8" text-anchor="middle">artstudio.me</text>
+
+    <rect x="678" y="212" width="96" height="16" rx="8"
+          fill="#0a1e14" stroke="#1bcfad" stroke-width="0.55"/>
+    <circle cx="690" cy="220" r="2.5" fill="#1bcfad" class="blink-dot"/>
+    <text x="740" y="223.5" fill="#6ee8cc"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="8" text-anchor="middle">classroom.me</text>
+
+    <rect x="576" y="233" width="108" height="16" rx="8"
+          fill="#0a1e14" stroke="#1bcfad" stroke-width="0.55"/>
+    <circle cx="588" cy="241" r="2.5" fill="#1bcfad" class="blink-dot"/>
+    <text x="644" y="244.5" fill="#6ee8cc"
+          font-family="'Segoe UI',Arial,sans-serif" font-size="8" text-anchor="middle">motionstudio.me</text>
+
+    <!-- Watermark in panel -->
+    <text x="800" y="265" fill="#1bcfad"
+          font-family="'Segoe UI',Arial,sans-serif"
+          font-size="90" font-weight="900" opacity="0.025" clip-path="url(#panel-clip)">L</text>
+  </g>
+
+  <!-- ── BOTTOM BAR ── -->
+  <rect x="0" y="295" width="900" height="5" fill="url(#bottom-bar)" opacity="0.55"/>
+
+  <!-- Bottom-left dark mask on bar (decorative split) -->
+  <rect x="0" y="295" width="220" height="5" fill="#060d0b" opacity="0.55"/>
+
+  <!-- Accent dot cluster top-center -->
+  <g class="glow-cycle" fill="#1bcfad">
+    <circle cx="456" cy="22" r="1.5" opacity="0.5"/>
+    <circle cx="470" cy="14" r="1"   opacity="0.35"/>
+    <circle cx="443" cy="16" r="1"   opacity="0.3"/>
+  </g>
+
+</g>
+</svg>
