@@ -5,7 +5,10 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lakipop&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  
+  <a href="https://committers.top/sri_lanka_private#lakipop">
+    <img src="https://img.shields.io/badge/GitHub_Rank-Sri_Lanka_%2351-2E9EF7?style=for-the-badge&logo=github" alt="GitHub Rank" />
+  </a>
 </p>
 
 ---
