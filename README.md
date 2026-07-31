@@ -6,7 +6,7 @@
 <br>
 <p align="center">
 <a href="https://committers.top/sri_lanka_private#lakipop">
-    <img src="https://user-badge.committers.top/sri_lanka_private/lakipop.svg" width="550" alt="GitHub Rank" />
+    <img src="https://user-badge.committers.top/sri_lanka_private/lakipop.svg" width="450" alt="GitHub Rank" />
 </a>
 </p>
 
