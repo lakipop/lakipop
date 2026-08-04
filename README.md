@@ -141,8 +141,8 @@
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-rainbow.svg" alt="3D Rainbow Profile" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lakipop/lakipop/main/profile-summary-card-output/tokyonight/1-most-commit-language.svg" height="165" alt="Most Commit Language" />
-  <img src="https://raw.githubusercontent.com/lakipop/lakipop/main/profile-summary-card-output/tokyonight/2-repos-per-language.svg" height="165" alt="Repos Per Language" />
+  <img src="https://raw.githubusercontent.com/lakipop/lakipop/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="165" alt="Most Commit Language" />
+  <img src="https://raw.githubusercontent.com/lakipop/lakipop/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="165" alt="Repos Per Language" />
   <img src="https://raw.githubusercontent.com/lakipop/lakipop/main/profile-summary-card-output/tokyonight/4-productive-time.svg" height="165" alt="Productive Time" />
 </div>
 
