@@ -135,15 +135,15 @@
 <div align="center">
   <img width="53%" src="https://github-readme-activity-graph.vercel.app/graph?username=lakipop&theme=tokyo-night&hide_border=false&border_radius=5&area=true&height=300&bg_color=0D1117&color=7dc4e4&line=7dc4e4&point=7dc4e4&title_color=7dc4e4" alt="Activity Graph"  />
    
-  <img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lakipop&theme=tokyonight&border_radius=5&bg_color=0D1117&title_color=7dc4e4&text_color=ffffff&icon_color=7dc4e4" alt="Profile Summary" />
+  <img width="46%" src="profile-summary-cards-output/tokyonight/0-profile-details.svg" alt="Profile Summary" />
 </div>
 
 <img src="https://raw.githubusercontent.com/lakipop/lakipop/output/profile-3d-rainbow.svg" alt="3D Rainbow Profile" />
 
-  <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lakipop&theme=tokyonight&count_private=true&include_all_commits=true&border_radius=8" height="165" alt="Most Commit Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lakipop&theme=tokyonight&count_private=true&include_all_commits=true&border_radius=8" height="165" alt="Repos Per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lakipop&theme=tokyonight&count_private=true&include_all_commits=true&border_radius=8" height="165" alt="Productive Time" />
+<div align="center">
+  <img src="profile-summary-cards-output/tokyonight/1-most-commit-language.svg" height="165" alt="Most Commit Language" />
+  <img src="profile-summary-cards-output/tokyonight/2-repos-per-language.svg" height="165" alt="Repos Per Language" />
+  <img src="profile-summary-cards-output/tokyonight/4-productive-time.svg" height="165" alt="Productive Time" />
 </div>
 
 </div>
